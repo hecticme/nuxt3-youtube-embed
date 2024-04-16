@@ -48,3 +48,24 @@ onMounted(() => {
     />
   </section>
 </template>
+
+<style scoped>
+.youtube-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.youtube-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#youtube-player {
+  width: 75%;
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+}
+</style>
