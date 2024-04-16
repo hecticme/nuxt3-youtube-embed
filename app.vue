@@ -1,3 +1,9 @@
+<script setup lang="ts">
+useHead({
+  title: 'Youtube Embedded Iframe',
+})
+</script>
+
 <template>
   <main class="app-wrapper">
     <YoutubeEmbed />
