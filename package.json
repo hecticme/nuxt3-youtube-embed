@@ -18,5 +18,6 @@
   "devDependencies": {
     "@hecticme/eslint-config": "^0.0.0",
     "eslint": "^9.0.0"
-  }
+  },
+  "packageManager": "pnpm@9.2.0"
 }
